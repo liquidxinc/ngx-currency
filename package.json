@@ -8,7 +8,6 @@
   "scripts": {
     "start": "concurrently --raw \"webpack-dev-server --open\" \"npm run test:watch\"",
     "demo": "npm start",
-    "prepare": "npm run build:dist",
     "build:demo": "webpack -p",
     "build:umd": "webpack --config webpack.config.umd.ts",
     "build:ngc": "ngc -p tsconfig-ngc.json",
